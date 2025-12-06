@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost Bridge Login</title>
+    <style>
+        body { font-family: sans-serif; background: #121212; color: white; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .box { background: #1e1e1e; padding: 40px; border-radius: 20px; text-align: center; width: 300px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        input { font-size: 24px; padding: 10px; width: 100%; text-align: center; margin: 20px 0; border-radius: 10px; border: none; letter-spacing: 5px; }
+        button { background: #2CC985; color: white; border: none; padding: 15px; width: 100%; border-radius: 10px; font-size: 18px; font-weight: bold; cursor: pointer; }
+        .error { color: #ff4d4d; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>🔐 Locked</h1>
+        <p>Enter PIN shown on PC</p>
+        <form method="post">
+            <input type="tel" name="pin" maxlength="4" placeholder="0000" autofocus required autocomplete="off">
+            <button type="submit">Unlock 🔓</button>
+        </form>
+        {% if error %}
+        <p class="error">Wrong PIN!</p>
+        {% endif %}
+    </div>
+</body>
+</html>
