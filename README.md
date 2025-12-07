@@ -62,7 +62,7 @@ If you want to run the source code or contribute:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/GhostBridge.git](https://github.com/YOUR_USERNAME/GhostBridge.git)
+    git clone [https://github.com/emirhannsarial/ghost_bridge.git](https://github.com/emirhannsarial/ghost_bridge.git)
     cd GhostBridge
     ```
 
