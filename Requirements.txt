@@ -1,0 +1,7 @@
+customtkinter
+    flask
+    qrcode
+    pillow
+    pyngrok
+    pyperclip
+    pyinstaller

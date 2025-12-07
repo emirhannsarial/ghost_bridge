@@ -1,0 +1,20 @@
+# Python derleme dosyaları (Bunlar çöp)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortamlar
+venv/
+env/
+
+# PyInstaller çıktıları
+build/
+dist/
+*.spec
+
+# Kullanıcı ayarları ve verileri (Herkesin ayarı kendine özel olmalı)
+config.json
+Ghost_Inbox/
+
+# VS Code ayarları
+.vscode/
